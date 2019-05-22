@@ -1,0 +1,2 @@
+rails g uploader Profile
+rails g migration AddPhotoToAuthor photo:string

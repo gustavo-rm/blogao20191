@@ -10,5 +10,10 @@
   <%= @author.age %>
 </p>
 
+<p>
+  <strong>Photo:</strong>
+  <%= image_tag @author.photo.url unless @author.photo.file.nil? %>
+</p>
+
 <%= link_to 'Edit', edit_author_path(@author) %> |
 <%= link_to 'Back', authors_path %>

@@ -44,6 +44,8 @@ end
 gem 'bootstrap-sass', '~> 3.2.0' 
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
