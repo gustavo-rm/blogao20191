@@ -3,3 +3,6 @@
 rails g devise:install
 rails g devise User
 rails db:migrate
+
+//gerar views
+rails generate devise:views
