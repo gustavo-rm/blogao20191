@@ -1,0 +1,5 @@
+//colocar a gem e usar o comando bundle
+//no terminal:
+rails g devise:install
+rails g devise User
+rails db:migrate

@@ -11,9 +11,11 @@
   </head>
 
   <body>
-  <%= render '/layouts/menu' %>
-  <div class="container-fluid">
-    <%= yield %>
+    <%= render '/layouts/menu' %>
+    <div class="container-fluid">
+        <p class="notice alert-warning"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+      <%= yield %>
     </div>
   </body>
 </html>
