@@ -47,6 +47,7 @@ gem 'jquery-rails'
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
 gem 'devise'
+gem 'cancancan'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
