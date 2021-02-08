@@ -44,7 +44,7 @@ end
 gem 'bootstrap-sass', '~> 3.2.0' 
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'mini_magick'
 gem 'devise'
 gem 'cancancan'
